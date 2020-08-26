@@ -1,42 +1,55 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "A. Brown Blogdown Website"
-theme = "hugo-lithium"
+theme = "blackburn"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+# Shown in the side menu
+copyright = "&copy; 2020. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/alexb523/abrown_blogdown"
-[[menu.main]]
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/in/alexander-brown-b93aa029/"
-
 [params]
-    description = "A website built through Hugo and blogdown."
+    DateForm = "2.1.2006"
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+  
+  # my stuff
+  github = "alexb523"
+  linkedin = "alexander-brown-b93aa029"
+  stackoverflow = "6816930"
 
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
 
