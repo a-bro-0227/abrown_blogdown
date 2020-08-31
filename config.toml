@@ -1,55 +1,95 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A. Brown Blogdown Website"
-theme = "blackburn"
-googleAnalytics = ""
-disqusShortname = ""
+defaultContentLanguage = "en"
+title = "A. Brown Blogdown"
+theme = "hermit"
+
+# enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "&copy; 2020"
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "yourdiscussshortname"
+
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-# Shown in the side menu
-copyright = "&copy; 2020. All rights reserved."
-canonifyurls = true
-paginate = 10
+[author]
+  name = "A. Brown"
 
-[indexes]
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
   tag = "tags"
-  topic = "topics"
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
+  # Categories are disabled by default.
 
 [params]
-    DateForm = "2.1.2006"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "A minimal and fast theme for Hugo."
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""  # Homepage background-image URL
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = false  # Add a related content section to all single posts page
+
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  
+  # [[params.social]]
+    # name = "twitter"
+    # url = "https://twitter.com/"
+
+  # [[params.social]]
+    # name = "instagram"
+    # url = "https://instagram.com/"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/alexb523"
+  
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/alexander-brown-b93aa029/"
+    
+  [[params.social]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/6816930/alexb523?tab=profile"
 
 [menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
+
   [[menu.main]]
     name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
+    url = "posts/"
+    weight = 10
+
   [[menu.main]]
     name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
-    identifier = "about"
-    url = "/about/"
-
-[social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
-  
-  # my stuff
-  github = "alexb523"
-  linkedin = "alexander-brown-b93aa029"
-  stackoverflow = "6816930"
+    url = "about/"
+    weight = 20
 
 
 

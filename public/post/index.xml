@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on A. Brown Blogdown Website</title>
+    <title>Posts on A. Brown Blogdown</title>
     <link>/post/</link>
-    <description>Recent content in Posts on A. Brown Blogdown Website</description>
+    <description>Recent content in Posts on A. Brown Blogdown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020. All rights reserved.</copyright>
+    <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Initial Post</title>
-      <link>/2020/08/01/initial-post/</link>
+      <title>About Me and The Blog</title>
+      <link>/post/about-me-and-the-blog/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/08/01/initial-post/</guid>
-      <description>Hi There,
-This is my initial post on my blog! I am excited to have a space to share my thoughts, opinions, and data explorations on the internet. I don’t do a whole lot of social media like Facebook, Twitter, etc. Although, I do Snap Chat sometimes with some friends and share on my story (@alexb523). So this will be a nice way to get what I think is important out there.</description>
+      <guid>/post/about-me-and-the-blog/</guid>
+      <description>Hi There,This is my initial post on my blog! I am excited to have a space to share my thoughts, opinions, and data explorations on the internet. I don’t do a whole lot of social media like Facebook, Twitter, etc. (Although, I do Snap Chat sometimes with some friends). So this will be a nice way to get what I think is important out there.
+A Little Bit About MeI have a wife who I enjoy spending time with.</description>
     </item>
     
   </channel>
