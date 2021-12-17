@@ -15,31 +15,34 @@
 			<pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
 			
 			<guid>/posts/about-me-and-the-blog/</guid>
-			<description>Hi There,This is my initial post on my blog! I am excited to have a space to share my thoughts, opinions, and data explorations on the internet. I don’t do a whole lot of social media like Facebook, Twitter, etc. (Although, I do Snap Chat sometimes with some friends). So this will be a nice way to get what I think is important out there.
-A Little Bit About MeI have a wife who I enjoy spending time with.</description>
+			<description>Hi ThereThis is my initial post! I am grateful to have a space to share my thoughts and data explorations.
+In This BlogI’d like to talk about data and analytic and the occasional random rant about things. I will try to express data and my thoughts eleantly (but no promises).
+ProfessionallyI conisder myself an Experiened Data Professional. I’ve been drawn to data since I started my professional-working career in 2013.</description>
 			<content type="html"><![CDATA[
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
 
 <div id="hi-there" class="section level1">
-<h1>Hi There,</h1>
-<p>This is my initial post on my blog! I am excited to have a space to share my thoughts, opinions, and data explorations on the internet. I don’t do a whole lot of social media like Facebook, Twitter, etc. (Although, I do Snap Chat sometimes with some friends). So this will be a nice way to get what I think is important out there.</p>
+<h1>Hi There</h1>
+<p>This is my initial post! I am grateful to have a space to share my thoughts and data explorations.</p>
 </div>
-<div id="a-little-bit-about-me" class="section level1">
-<h1>A Little Bit About Me</h1>
-<p>I have a wife who I enjoy spending time with. We like hiking, camping, biking, kayaking, cooking, exercising, and anything else that will get us outdoors. For example, we have been trying to get into bird watching. My dad is a really avid birder and is showing us the ropes! In addition to all those activities mentioned, I also enjoy playing guitar, coding, and I am trying to get into woodworking.</p>
-<p>I am a data analyst and an aspiring data scientist. In my professional life overall, I am on the journey to be well rounded at working with data. I have my masters in business analytics from the University of Iowa. I double majored in supply chain management and economics in my undergrad from the University of Northern Iowa.</p>
+<div id="in-this-blog" class="section level1">
+<h1>In This Blog</h1>
+<p>I’d like to talk about data and analytic and the occasional random rant about things. I will try to express data and my thoughts eleantly (but no promises).</p>
 </div>
-<div id="a-little-about-this-blog" class="section level1">
-<h1>A Little About This Blog</h1>
-<p>I am hoping I can use this blog for a few things:</p>
-<ol style="list-style-type: decimal">
-<li><p>To just document my thoughts about life and stuff in general. Maybe that’s something nobody is interested in, but I think it will be helpful for me and maybe the spillover will be of help or interest to other people.</p></li>
-<li><em>Show off</em> my coding skills. I learn a lot about coding from the internet and would love to contribute back. Not to mention, if I can point to some data topics and a website in general, I think it could impress prospective employers. The main programs I code in are <code>R</code>, <code>Python</code>, <code>SQL</code> (or <code>PostgreSQL</code>) and Excel. I would say I am a heavy <code>R</code> user, I am fluent in <code>Python</code>, and I am good at <code>SQL</code> (querying, setting up databases, giving access, etc.). I am also embarrassingly good at Excel. I hope to produce some posts in all of these languages and maybe even in some languages I learn later on in my journey.
-<ol style="list-style-type: lower-alpha">
-<li>I say I am embarrassingly good at Excel, because ever since I started working out of my undergrad, I have enjoyed working with data. I thought everyone else in the company I worked for was good at Excel and I needed to get good at Excel to keep up with them. It turns out they were not good at Excel and I soon became known for my Excel skills. I became fascinated by the ability to automate and do things fast! The natural progression from that is coding which I was exposed to in my masters and learned mostly on my own from there.</li>
-</ol></li>
-</ol>
-<p>Anyways, I look forward to this and hope to work on it a little every week!</p>
+<div id="professionally" class="section level1">
+<h1>Professionally</h1>
+<p>I conisder myself an Experiened Data Professional. I’ve been drawn to data since I started my professional-working career in 2013. I became embarrising good at Excel, started creating complex queries, then developing repoducible code to automate data processing and reporting tasks in open source lanages like <code>Python</code> and <code>R</code>, as well as, cloud techonlogies like AWS.</p>
+<p>I double majored in Supply Chain Management and Economics from the University of Northern Iowa and the got my Masters of Science from the University of Iowa.</p>
+<p>I have interest in automation and machine learning, as well as, data strategy development and implementation.</p>
+<p>I’ve worked in an elcectic of domains including distribution, k-12 standarized testing, and finance.</p>
+</div>
+<div id="personally" class="section level1">
+<h1>Personally</h1>
+<p>While I truely enjoy working with data, and it tends to seep into all aspects of my life, I also deeply enjoy spending time with my wife and dog.</p>
+<p>(insert picture of wife and dog)</p>
+<p>We like to get outdoors for hiking, camping, biking, kayaking, and running. I also like cooking and guitar.</p>
 <p>Cheers, A. Brown</p>
 </div>
 ]]></content>

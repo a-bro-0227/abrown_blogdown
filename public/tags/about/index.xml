@@ -7,19 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me and The Blog</title>
       <link>/posts/about-me-and-the-blog/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/about-me-and-the-blog/</guid>
-      <description>Hi There,This is my initial post on my blog! I am excited to have a space to share my thoughts, opinions, and data explorations on the internet. I don’t do a whole lot of social media like Facebook, Twitter, etc. (Although, I do Snap Chat sometimes with some friends). So this will be a nice way to get what I think is important out there.
-A Little Bit About MeI have a wife who I enjoy spending time with.</description>
+      <description>Hi ThereThis is my initial post! I am grateful to have a space to share my thoughts and data explorations.
+In This BlogI’d like to talk about data and analytic and the occasional random rant about things. I will try to express data and my thoughts eleantly (but no promises).
+ProfessionallyI conisder myself an Experiened Data Professional. I’ve been drawn to data since I started my professional-working career in 2013.</description>
     </item>
     
   </channel>
